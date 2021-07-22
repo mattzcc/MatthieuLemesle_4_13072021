@@ -709,7 +709,7 @@ h2 {
     line-height: 1.4em;
 }
 
-.col-sm-4 h2 {
+.col-sm-4 h2, .col-sm-6 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -780,12 +780,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine:hover {
     /* background: #c27956!important; */
-    background: darken();
+    background: #303030!important;
     color: #FFFFFF!important;
 }
 

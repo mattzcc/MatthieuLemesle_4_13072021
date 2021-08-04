@@ -5,26 +5,20 @@
 	<meta charset="utf-8">
 	<!-- <meta name="keywords" content=""> -->
 	<meta name="description" content="La Chouette Agence, Entreprise de Webdesign - Marketing Digital - Infographie, située à Lyon">
+	<meta name="robots" content="all" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 	<title>Contactez-nous</title>
 
@@ -58,7 +52,7 @@
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-								<a href="page2.html">Contactez-nous</a>
+								<a href="contact.html">Contactez-nous</a>
 							</li>
 						</ul>
 					</div>
@@ -93,25 +87,25 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50"
 									required></textarea>
@@ -122,12 +116,12 @@
 							</button>
 						</form>
 					</div>
-					<address class="col-sm-6">
+					<div class="col-sm-6">
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
 						</p>
-					</address>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -139,34 +133,34 @@
 		<!-- ScrollToTop Button END-->
 
 
-		<!-- Footer - bloc-8 -->
+		<!-- Footer -->
 		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
-							La chouette agence - Agence web basée à Lyon.<br>
+						<p class="text-center txt-black">
+							La chouette agence - Agence web basée à Lyon
 						</p>
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
 									<a class="social" href="index.html"><span
-											class="fa fa-instagram icon-md"></span></a>
+											class="fa fa-instagram icon-md"></span>Instagram</a>
 								</div>
 							</div>
 						</div>
@@ -174,7 +168,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- Footer - bloc-8 END -->
+		<!-- Footer END -->
 
 	</main>
 	<!-- Principal conteneur END -->

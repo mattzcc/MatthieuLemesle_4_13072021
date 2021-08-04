@@ -283,7 +283,7 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+#bloc-1-hero {
     font-size: 32px;
 }
 
@@ -668,7 +668,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 32px;
+    margin-top: 20px;
 }
 
 .hero-bloc-text-sub {

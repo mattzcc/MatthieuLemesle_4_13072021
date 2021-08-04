@@ -484,6 +484,8 @@ button {
 
 .icon-md {
     font-size: 30px !important;
+    padding-right: 5px;
+    color: white!important;
 }
 
 .icon-lg {
@@ -709,6 +711,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: #303030!important;
 }
 
 h2 {
@@ -748,7 +751,9 @@ h4 {
 }
 
 .txt-black{
-    color: black!important;
+    color: #303030!important;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 .portfolio-thumb {
